@@ -1,5 +1,6 @@
 import adapters.*;
 import systems.*;
+import target.SchoolManagementApp;
 
 public class Main {
     public static void main(String[] args) {
