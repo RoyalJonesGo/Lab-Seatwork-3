@@ -1,10 +1,12 @@
 package adapters;
 
 import systems.AttendanceSystem;
+import target.SchoolManagementApp;
+    
 public class AttendanceSystemAdapter implements SchoolManagementApp {
     private AttendanceSystem attendanceSystem;
 
-    public AttendanceSystemAdapter (AttendanceSystem attendanceSystem) {
+    public AttendanceSystemAdapter(AttendanceSystem attendanceSystem) {
         this.attendanceSystem = attendanceSystem;
 
     }
